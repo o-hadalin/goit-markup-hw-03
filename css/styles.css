@@ -134,6 +134,7 @@ img {
   border-radius: 4px;
   display: block;
   margin: 0 auto;
+  min-width: 169px;
 }
 .order-button:hover,
 .order-button:focus {
@@ -249,7 +250,7 @@ img {
 }
 .logo-footer {
   margin-bottom: 16px;
-  display: block;
+  display: inline-block;
 }
 
 .footer-main {

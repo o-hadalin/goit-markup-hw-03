@@ -21,6 +21,9 @@ h6,
 p {
   margin: 0;
 }
+img {
+  display: block;
+}
 
 .container {
   max-width: 1158px;
@@ -46,7 +49,7 @@ p {
 }
 .contacts-ul {
   display: flex;
-  align-items: center;
+  justify-items: end;
   gap: 40px;
 }
 .logo {
@@ -57,8 +60,8 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  /* width: 156px;
-  height: 24px; */
+  width: 156px;
+  height: 24px;
 }
 .logo-header {
   padding: 24px 0;
@@ -155,11 +158,12 @@ p {
   gap: 24px;
 }
 .mission-li {
-  width: calc((100% - 74px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
+  /* align-items: stretch; */
 }
-/* .mission-li:last-child {
+.mission-li:last-child {
   margin-right: 0;
-} */
+}
 .advantages-container {
   padding: 120px 0;
 }

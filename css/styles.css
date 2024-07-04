@@ -244,6 +244,14 @@ img {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
 }
+.footet-container {
+  padding: 120px 0;
+}
+.logo-footer {
+  margin-bottom: 16px;
+  display: block;
+}
+
 .footer-main {
   background-color: #2e2f42;
   font-size: 16px;
@@ -253,6 +261,7 @@ img {
 }
 .logo-footer .span-studio {
   color: #f4f4fd;
+  /* padding-bottom: 16px; */
 }
 .footer-main .paragraph {
   color: #f4f4fd;

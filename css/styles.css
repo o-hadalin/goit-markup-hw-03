@@ -157,9 +157,9 @@ p {
 .mission-li {
   width: calc((100% - 74px) / 4);
 }
-.mission-ul:last-child {
+/* .mission-li:last-child {
   margin-right: 0;
-}
+} */
 .titul-three {
   font-weight: 500;
   font-size: 20px;

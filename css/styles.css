@@ -135,6 +135,9 @@ p {
 .order-button:focus {
   background-color: #404bbf;
 }
+.advantages-container {
+  padding: 120px 0;
+}
 .titul-two {
   position: absolute;
   width: 1px;
@@ -147,18 +150,31 @@ p {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.mission-ul {
+  display: flex;
+  gap: 24px;
+}
+.mission-li {
+  width: calc((100% - 74px) / 4);
+}
+.mission-ul:last-child {
+  margin-right: 0;
+}
 .titul-three {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
+  max-width: 264px;
 }
 .paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  max-width: 264px;
 }
 
 .team {

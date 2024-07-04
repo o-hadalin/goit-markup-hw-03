@@ -138,7 +138,7 @@ p {
 .advantages-container {
   padding: 120px 0;
 }
-.titul-two {
+.titul-two-hide {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -160,6 +160,9 @@ p {
 /* .mission-li:last-child {
   margin-right: 0;
 } */
+.advantages-container {
+  padding: 120px 0;
+}
 .titul-three {
   font-weight: 500;
   font-size: 20px;

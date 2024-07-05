@@ -181,7 +181,12 @@ img {
 }
 .titul-two {
   margin: 0 auto 72px auto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 .team {
   background-color: #f4f4fd;

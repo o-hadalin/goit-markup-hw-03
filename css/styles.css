@@ -202,7 +202,7 @@ img {
   margin-right: 0;
 }
 .team-name {
-  padding: 32px 16px;
+  padding: 32px 0;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -229,16 +229,12 @@ img {
   margin-right: 0;
 }
 .portfolio-name {
-  padding: 32px 0;
+  padding: 32px 16px;
   margin-left: auto;
   margin-right: auto;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
-}
-.portfolio-name .titul-three,
-.portfolio-name .paragraph {
-  margin-left: 16px;
 }
 .logo-footer {
   margin-bottom: 16px;

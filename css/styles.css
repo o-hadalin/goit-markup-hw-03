@@ -236,9 +236,6 @@ img {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
 }
-.footet {
-  padding: 100px 0;
-}
 .logo-footer {
   margin-bottom: 16px;
   display: inline-block;
@@ -249,6 +246,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  padding: 100px 0;
 }
 .logo-footer .span-studio {
   color: #f4f4fd;
